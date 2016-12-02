@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'serve' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose run-script [ 'preserve', 'serve', 'postserve' ]
+5 info lifecycle angular2-starter@0.2.4~preserve: angular2-starter@0.2.4
+6 silly lifecycle angular2-starter@0.2.4~preserve: no script for preserve, continuing
+7 info lifecycle angular2-starter@0.2.4~serve: angular2-starter@0.2.4
+8 verbose lifecycle angular2-starter@0.2.4~serve: unsafe-perm in lifecycle true
+9 verbose lifecycle angular2-starter@0.2.4~serve: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\work_project\personal\angular2\starter\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\Shougat\AppData\Roaming\Composer\vendor\bin;C:\xampp\mysql\bin;C:\Program Files\nodejs\;C:\Users\Shougat\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin
+10 verbose lifecycle angular2-starter@0.2.4~serve: CWD: E:\work_project\personal\angular2\starter
+11 silly lifecycle angular2-starter@0.2.4~serve: Args: [ '/d /s /c', 'webpack-dev-server --inline --progress' ]
+12 silly lifecycle angular2-starter@0.2.4~serve: Returned: code: 3221225786  signal: null
+13 info lifecycle angular2-starter@0.2.4~serve: Failed to exec serve script
+14 verbose stack Error: angular2-starter@0.2.4 serve: `webpack-dev-server --inline --progress`
+14 verbose stack Exit status 3221225786
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid angular2-starter@0.2.4
+16 verbose cwd E:\work_project\personal\angular2\starter
+17 error Windows_NT 6.1.7600
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "serve"
+19 error node v6.9.1
+20 error npm  v3.10.8
+21 error code ELIFECYCLE
+22 error angular2-starter@0.2.4 serve: `webpack-dev-server --inline --progress`
+22 error Exit status 3221225786
+23 error Failed at the angular2-starter@0.2.4 serve script 'webpack-dev-server --inline --progress'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the angular2-starter package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server --inline --progress
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs angular2-starter
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls angular2-starter
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
